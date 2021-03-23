@@ -7,7 +7,7 @@ module OmniAuth
       option :name, "qualtrics"
 
       option :client_options,
-            site:          "https://iad1.qualtrics.com",
+            site:          "https://co1.qualtrics.com",
             authorize_url: "/oauth2/auth",
             token_url:     "/oauth2/token"
 
@@ -17,13 +17,8 @@ module OmniAuth
 
       option :token_params, parse: :json
 
-      uid do
-        access_token["user"]["id"]
-      end
-
       info do
         {
-          "name" => raw_info["name"],
           "url" => access_token.client.site
         }
       end
