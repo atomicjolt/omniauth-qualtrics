@@ -17,13 +17,8 @@ module OmniAuth
 
       option :token_params, parse: :json
 
-      uid do
-        access_token["user"]["id"]
-      end
-
       info do
         {
-          "name" => raw_info["name"],
           "url" => access_token.client.site
         }
       end

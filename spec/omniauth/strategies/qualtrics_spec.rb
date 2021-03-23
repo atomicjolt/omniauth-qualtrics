@@ -21,7 +21,7 @@ describe OmniAuth::Strategies::OAuth2 do
 
   context "client options" do
     it "has correct api site" do
-      expect(subject.options.client_options.site).to eq("https://iad1.qualtrics.com")
+      expect(subject.options.client_options.site).to eq("https://co1.qualtrics.com")
     end
 
     it "has correct access token path" do

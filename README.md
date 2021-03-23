@@ -146,7 +146,7 @@ config.middleware.insert_before 0, "OauthStateMiddleware"
 
 # License
 
-Copyright (C) 2012-2017 by Justin Ball and Atomic Jolt.
+Copyright (C) 2012-2021  Atomic Jolt.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
