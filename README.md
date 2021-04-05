@@ -7,7 +7,7 @@ https://api.qualtrics.com/instructions/docs/Instructions/oauth-authentication-au
 
 
 **NOTE**: you will need to set `env['rack.session']['oauth_site']` to the current
-Qualtrics instance that you wish to OAuth with. By default this is https://iad1.qualtrics.com
+Qualtrics instance that you wish to OAuth with. By default this is https://co1.qualtrics.com
 
 -- OR --
 
