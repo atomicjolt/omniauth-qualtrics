@@ -8,7 +8,8 @@ module OmniAuth
       option :client_options,
              site: 'https://co1.qualtrics.com',
              authorize_url: '/oauth2/auth',
-             token_url: '/oauth2/token'
+             token_url: '/oauth2/token',
+             auth_scheme: :request_body
 
       # Qualtrics does use state but we want to control it rather than letting
       # omniauth-oauth2 handle it.
